@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="weather-card">
+    <h2>Weather App</h2>
+
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <h3 id="location">---</h3>
+    <h1 id="temp">--°C</h1>
+    <p id="status">---</p>
+    <p id="humidity">Humidity: --%</p>
+    <p id="wind">Wind: -- km/h</p>
+  </div>
+
+  <!-- IMPORTANT: filename same hona chahiye -->
+  <script src="javascript.js"></script>
+</body>
+</html>
