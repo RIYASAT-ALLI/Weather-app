@@ -1,4 +1,4 @@
-const apiKey = "a6d83f0f5dc7f99840008da4d2de6981";
+const apiKey = "Hide enter yours";
 
 function getWeather() {
   const city = document.getElementById("cityInput").value.trim();
@@ -30,3 +30,4 @@ function getWeather() {
       alert("Error! Open console (F12)");
     });
 }
+
